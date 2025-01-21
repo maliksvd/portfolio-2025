@@ -1,3 +1,5 @@
+import React, { SVGProps } from 'react'
+
 export function LogosExpoIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg

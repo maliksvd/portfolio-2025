@@ -1,3 +1,5 @@
+import React, { SVGProps } from 'react'
+
 export function LogosNextjsIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
