@@ -37,7 +37,7 @@ export default function Hero() {
           transition: { duration: 1.5, delay: 1.5 },
         }}
       >
-        <Button className="mt-8 rounded-full bg-[#0071E3] px-8 py-4 text-lg text-white">
+        <Button className="mt-8 rounded-full bg-[#0071E3] text-lg text-white">
           Start a new project
         </Button>
       </motion.div>

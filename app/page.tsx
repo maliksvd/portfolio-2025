@@ -1,6 +1,7 @@
 import Hero from '@/components/Home/Hero'
 import Intro from '@/components/Home/Intro'
 import Why from '@/components/Home/Why'
+import { Projects } from '@/components/Home/Projects'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Intro />
       <Why />
+      <Projects />
     </div>
   )
 }
