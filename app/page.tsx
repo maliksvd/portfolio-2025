@@ -1,7 +1,6 @@
-import Hero from "@/components/Home/Hero";
-import Intro from "@/components/Home/Intro";
-import Why from "@/components/Home/Why";
- 
+import Hero from '@/components/Home/Hero'
+import Intro from '@/components/Home/Intro'
+import Why from '@/components/Home/Why'
 
 export default function Home() {
   return (
@@ -10,5 +9,5 @@ export default function Home() {
       <Intro />
       <Why />
     </div>
-  );
+  )
 }
