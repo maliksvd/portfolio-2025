@@ -16,9 +16,11 @@ export default function Header() {
         <div className="flex flex-row items-end gap-4 lg:gap-11">
           <Link href="/">Malik Krechiche</Link>
         </div>
-        <div className="flex-row items-center gap-12 lg:flex">
-          <Button variant="outline">Menu</Button>
-        </div>
+        <Button variant="outline" className="rounded-full">
+          <Link href="mailto:malik.krechiche@icloud.com">
+            Start a new project
+          </Link>
+        </Button>
       </div>
     </motion.header>
   )
